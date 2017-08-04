@@ -299,3 +299,18 @@ form input, form textarea{
  i {
     color: #fdc53e;
 }
+
+.back-button {
+    text-align: center;
+}
+
+.back-button a {
+    background: rgba(0,0,0,0.85);
+    color: #b5b5b5;
+    padding: 10px 60px;
+    border-radius: 3px;
+}
+
+.back-button a:hover {
+    color: #fff;
+}
