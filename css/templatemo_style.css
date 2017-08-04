@@ -524,7 +524,7 @@ a
 	transition:all 2s ease-in-out;
 }
 .about p, .services-main p, .services-main li {
-    line-height: 30px;
+    line-height: 28px;
     font-size: 25px;
 }
 .services-main.main

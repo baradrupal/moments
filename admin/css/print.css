@@ -1,0 +1,23 @@
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+	border:1px solid #ddd !important;
+}
+td,th{
+	padding:5;
+	border-right:1px solid #ddd !important;
+}
+*{
+	text-shadow:none !important;
+	color:#000 !important;
+	background:transparent !important;
+	box-shadow:none !important
+}
+thead{
+	display:table-header-group;
+	text-align:left;
+}
+tr{
+	page-break-inside:avoid
+}
+

@@ -212,3 +212,59 @@ body.blurred > * {
     top: 48%;
     background-image: url("../images/previous.png");
 }
+
+
+.contact-form {
+    background: rgba(0,0,0,0.85);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+form input[type="text"],form input[type="email"] {
+    border-radius: 3px;
+    background: #fff !important;
+    font-size:16px;
+    color:#3e3e3e !important;
+}
+
+form textarea{
+    border-radius: 3px !important;
+    background: #fff !important;
+    font-size:16px;
+    color:#3e3e3e;
+}
+  
+.google-map {
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.contact-form {
+    min-height: 575px;
+    padding-bottom: 10px !important;
+}
+
+.contact-form input.button {
+    border-radius: 3px;
+    font-size: 12px !important;
+    padding: 10px 20px !important;
+}
+.services .icon-item{
+    font-size: 19px !important;
+}
+
+.services-main h3 b {
+    font-size: 30px;
+    color: #fdc741;
+}
+
+b.services-ending-quote {
+    color: #fdc43b;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+.clients-logo {
+    overflow: hidden;
+}
+form input, form textarea{
+    margin-bottom: 20px !important;
+}

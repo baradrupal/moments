@@ -1,0 +1,6 @@
+[28-Apr-2017 18:10:55 Etc/GMT] PHP Notice:  Undefined variable: curl in /home/infor9wx/public_html/www.codeclinic.in/demo/upscale/Brightware/example.php on line 42
+[28-Apr-2017 18:10:55 Etc/GMT] PHP Warning:  curl_getinfo() expects parameter 1 to be resource, null given in /home/infor9wx/public_html/www.codeclinic.in/demo/upscale/Brightware/example.php on line 42
+[28-Apr-2017 18:13:16 Etc/GMT] PHP Notice:  Undefined variable: curl in /home/infor9wx/public_html/www.codeclinic.in/demo/upscale/Brightware/example.php on line 46
+[28-Apr-2017 18:13:16 Etc/GMT] PHP Warning:  curl_getinfo() expects parameter 1 to be resource, null given in /home/infor9wx/public_html/www.codeclinic.in/demo/upscale/Brightware/example.php on line 46
+[28-Apr-2017 18:13:27 Etc/GMT] PHP Notice:  Undefined variable: curl in /home/infor9wx/public_html/www.codeclinic.in/demo/upscale/Brightware/example.php on line 46
+[28-Apr-2017 18:13:27 Etc/GMT] PHP Warning:  curl_getinfo() expects parameter 1 to be resource, null given in /home/infor9wx/public_html/www.codeclinic.in/demo/upscale/Brightware/example.php on line 46
