@@ -1054,5 +1054,8 @@ a
 
 .tabs.mobile-tabs-main.services-main.vinay.services-ending-quote {text-align:center !important}
 body p{text-align:justify !important}
-
-   
+#menu-8 i {
+    margin-right: 5px;
+}
+.contact-form {
+    min-height: 583px !important;}
