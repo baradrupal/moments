@@ -268,3 +268,34 @@ b.services-ending-quote {
 form input, form textarea{
     margin-bottom: 20px !important;
 }
+
+
+.gallery-pictures {
+    display: none;
+}
+
+.gallery-videos {
+    display: none;
+}
+
+.type-select-box {
+    background: rgba(0,0,0,0.8);
+    border-radius: 3px;
+    text-align: center;
+    font-size: 6rem;
+    padding: 16%;
+    margin: 10%;
+    color:#d8d8d8;
+    cursor: pointer;
+}
+.type-title {
+    font-size: 30px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    color: #989898;
+}
+
+.type-select-box:hover
+ i {
+    color: #fdc53e;
+}
