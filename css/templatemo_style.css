@@ -129,21 +129,21 @@ form input[type="password"]:focus {
     outline: none !important;
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #fff;
+    color:    #ccc;
 }
 input:-moz-placeholder, textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #fff;
+   color:    #ccc;
    opacity:  1;
 }
 input::-moz-placeholder, textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #fff;
+   color:    #ccc;
    opacity:  1;
 }
 input:-ms-input-placeholder, textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    #fff;
+   color:    #ddd;
 }
 input::-ms-input-placeholder, textarea::-ms-input-placeholder { /* Microsoft Edge */
-   color:    #fff;
+   color:    #ccc;
 }
 
 form .button {
@@ -248,7 +248,7 @@ html, body {
 body {
     font: 24px/20px "Gabriola", Gabriola, Gabriola;
     font-weight: 300;
-    color: #d8aa46;  /*#999*/
+    color: #d8d8d8;  /*#999*/
     background-color: #4c4c4c;
 }
 
@@ -826,7 +826,7 @@ form input, form textarea {
 	width:100%;
 }
 .clients-logo {
-    height: 130px;
+    height: 131px;
     background: #fff;
     border-radius: 50%;
     width: 130px;
@@ -863,7 +863,7 @@ form input, form textarea {
 .testimonial .description {
     padding: 0 15px;
     font-size: 25px;
-    color: #d8aa46;   /*#808080*/
+    color: #d8d8d8;   /*#808080*/
     line-height: 28px;
 }
 a
@@ -1049,3 +1049,8 @@ a
 	width:100%;
 }
 }
+.vinay h3{text-align:left !important;}
+.testimonial h2{color:#36b7c9 !important;}
+
+.tabs.mobile-tabs-main.services-main.vinay.services-ending-quote {text-align:center !important}
+body p{text-align:justify !important}
