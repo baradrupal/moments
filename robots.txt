@@ -1,0 +1,17 @@
+User-Agent: *
+Disallow: 
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: msnbot-media
+Disallow: /
+
+User-agent: Yahoo-MMCrawler 
+Disallow: /
+
+User-agent: psbot 
+Disallow: /
+
+
+Sitemap: http://www.momentsunlimited.in/sitemap.xml
