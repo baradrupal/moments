@@ -433,7 +433,7 @@
                                 </div>
                             </div>
                             <div class="gallery-pictures">
-
+                            <div class="row">
                                 <div class="col-md-4 col-ms-6">
                                     <div class="g-item">
                                         <img src="images/gallery/g1_small.jpg" alt="">
@@ -506,9 +506,13 @@
                                         </a>
                                     </div> <!-- /.g-item -->
                                 </div> <!-- /.col-md-4 -->
+                                </div>
+                                <div class="back-button"><a href="#!">Back</a></div>
+
                             </div>
 
                             <div class="gallery-videos">
+                                <div class="row">
                                 <div class="col-md-4 col-ms-6">
                                     <div class="g-item">
                                         <img src="images/gallery/g8_small.jpg" alt="">
@@ -525,7 +529,10 @@
                                         </a>
                                     </div> <!-- /.g-item -->
                                 </div> <!-- /.col-md-4 -->
+                                </div>
+                                <div class="back-button"><a href="#!">Back</a></div>
                             </div>
+
                             
 
                         </div> <!-- /.row -->
@@ -1286,8 +1293,10 @@ $(".homebutton").click(function(){
 
 
 $(function(){
+    $( "body" ).scrollTop( 0 );
 	$("ul.menu li a").on("click",function(){
 		$( "body" ).scrollTop( 0 );
+        resetGallery();
 	});
 });
 
@@ -1304,9 +1313,20 @@ jQuery('.demolink').on('click', function(evt){
 
 $(function(){
     $(".type-select-box").on("click",function(){
-        
+        $(".select-type").hide();
+        $("."+$(this).data("target")).fadeIn(300);
+    });
+    $(".back-button a").on("click",function(){
+        resetGallery();
     });
 });
+
+function resetGallery(){
+    $(".gallery-pictures").hide();
+    $(".gallery-videos").hide();
+    $( "body" ).scrollTop( 0 );
+    $(".select-type").fadeIn(300);
+}
 
 	</script>
 	<script type="text/javascript" src="js/javascript.js"></script>	
