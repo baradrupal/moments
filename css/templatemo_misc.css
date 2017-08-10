@@ -294,7 +294,12 @@ form input, form textarea{
     text-transform: uppercase;
     color: #989898;
 }
-
+.type-select-box i{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
 .type-select-box:hover
  i {
     color: #fdc53e;
@@ -313,4 +318,20 @@ form input, form textarea{
 
 .back-button a:hover {
     color: #fff;
+}
+
+.icon-item .icon-image-white{
+    display: none;
+}
+.icon-item.active .icon-image-white{
+    display: initial;
+}
+.icon-item .icon-image-blue{
+    display: initial;
+}
+.icon-item.active .icon-image-blue{
+    display: none;
+}
+.icon-item.active{
+    color:#fff !important;
 }
