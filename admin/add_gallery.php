@@ -141,7 +141,7 @@ if(isset($_POST["add"]))
                         }
                     }
                     
-                    $selelect_data="SELECT * FROM `gallery`  ORDER BY id DESC";
+                    $selelect_data="SELECT * FROM `gallery`";
                     $exe_data=mysqli_query($con,$selelect_data);
                     
                     while($tbl_data=mysqli_fetch_array($exe_data))
